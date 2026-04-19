@@ -476,35 +476,23 @@ Bibliographie
 
 Crédits
 =======
-<dl>
-<dt>Rédaction, conception et mise en page supplémentaire</dt>
-<dd>Kathryn Hymes et Hakan Seyalioglu</dd>
-</dl>
+**Rédaction, conception et mise en page supplémentaire**
+<br>&emsp;Kathryn Hymes et Hakan Seyalioglu
 
-<dl>
-<dt>Révision</dt>
-<dd>Karen Twelves</dd>
-</dl>
+**Révision**
+<br>&emsp;Karen Twelves
 
-<dl>
-<dt>Mise en page</dt>
-<dd>Brennen Reece</dd>
-</dl>
+**Mise en page**
+<br>&emsp;Brennen Reece
 
-<dl>
-<dt>Illustrations</dt>
-<dd>Miranda Meeks</dd>
-</dl>
+**Illustrations**
+<br>&emsp;Miranda Meeks
 
-<dl>
-<dt>Consultante en sensibilité</dt>
-<dd>Nola M. Nackerud</dd>
-</dl>
+**Consultante en sensibilité**
+<br>&emsp;Nola M. Nackerud
 
-<dl>
-<dt>Traduction française</dt>
-<dd>Alain Debecker</dd>
-</dl>
+**Traduction française**
+<br>&emsp;Alain Debecker
 
 Pour plus d'informations, notamment une entrevue avec des locuteurs natifs organisée par le projet de langue des signes nicaraguayenne, consultez : https://www.thornygames.com/sign
 
