@@ -20,7 +20,7 @@
 r = new XMLHttpRequest()
 r.onload = function() {
 	console.log(r)
-    document.getElementById("text").innerHTML = marked.parse(r.response)
+    document.getElementById("text").innerHTML = marked.parse(r.response).replace(/\s*:/, "&nbsp;:")
 }
 r.open("GET", "manuel.md", true);
 r.send();
