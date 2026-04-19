@@ -2,7 +2,9 @@
 
 <style>
 * { font-family: sans-serif}
+body { background: lightgrey }
 #text { width: 40em; margin:auto; text-align: justify; }
+
 blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;
@@ -13,12 +15,9 @@ blockquote {
 dt { font-weight: bold }
 </style>
 
-<!--input type="file" oninput="display(files[0])"-->
-<div>New</div>
 <div id="text"></div>
 
 <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js"></script>
-
 <script>
 r = new XMLHttpRequest()
 r.onload = function() {
@@ -27,27 +26,5 @@ r.onload = function() {
 }
 r.open("GET", "manuel.md", true);
 r.send();
-
-display = function(file){
-	r = new FileReader()
-	r.onload = function(){
-		text = document.querySelector("#text")
-		text.innerHTML = marked.parse(r.result)
-		//text.scrollIntoView(false)
-		content(text.innerHTML)
-	}
-	r.readAsText(file)
-}
-content = function(text){
-	toc = ""
-	current = 0
-	for(title of text.match(/<h\d>.*<\/h\d>/g)){
-		level = title[2]
-		title = title.slice(4, -5)
-		//if(level>current)
-			
-		console.log(level, title)
-	}
-}
 </script>
 
