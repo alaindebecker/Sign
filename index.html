@@ -23,7 +23,7 @@ dt { font-weight: bold }
 r = new XMLHttpRequest()
 r.onload = function() {
 	console.log(r)
-    document.getElementById("text").innerHTML = marked.parse(r.responseText)
+    document.getElementById("text").innerHTML = marked.parse(r.response)
 }
 r.open("GET", "manuel.md", true);
 r.send();
