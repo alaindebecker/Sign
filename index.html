@@ -13,12 +13,19 @@ blockquote {
 dt { font-weight: bold }
 </style>
 
-<input type="file" oninput="display(files[0])">
+<!--input type="file" oninput="display(files[0])"-->
 <div id="text"></div>
 
 <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js"></script>
 
 <script>
+r = new XMLHttpRequest()
+r.onload = function() {
+    document.getElementById("text").innerHTML = marked.parse(responseText)
+}
+r.open("GET", "manuel.md", true);
+r.send();
+
 display = function(file){
 	r = new FileReader()
 	r.onload = function(){
